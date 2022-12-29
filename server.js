@@ -13,7 +13,7 @@ connectDB(process.env.MONGO_URL);
 
 // Cors
 const corsOptions = {
-      origin: ['http://localhost:3000'],
+      origin: ['http://localhost:3000','https://frolicking-sunshine-647ea7.netlify.app'],
     credentials: true,
     optionSuccessStatus: 200
 }
